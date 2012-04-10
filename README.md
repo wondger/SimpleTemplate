@@ -61,7 +61,7 @@ let g:SimplateTemplate = {
             \'value':'#date#'
         \}
     \]
-}
+\}
 </pre>
 <p>excute command:</p>
 <pre>
