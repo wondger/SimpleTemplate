@@ -22,7 +22,7 @@ let g:SimplateTemplate = {
         \},
         \{
             \'key':'#date#',
-            \'value':'date'
+            \'value':'#date#'
         \}
     \]
 }
@@ -32,3 +32,47 @@ let g:SimplateTemplate = {
     <li>#date# - current date time</li>
     <li>#filename# - file name</li>
 </ul>
+<p>The keys in flags will be replaced by the value when load template file.</p>
+
+<h3>Example</h3>
+<p>template file</p>
+<pre>
+/*
+ * @name   : Super Man
+ * @author : __author__
+ * @crate  : __date__
+*/
+#cursor#
+</pre>
+<p>config</p>
+<pre>
+let g:SimplateTemplate = {
+    "template path
+    \'path':'~/template/',
+    \'default_name':'noname',
+    \'cursor':'#cursor',
+    \'flags':[
+        \{
+            \'key':'__author__',
+            \'value':'wondger'
+        \},
+        \{
+            \'key':'__date__',
+            \'value':'#date#'
+        \}
+    \]
+}
+</pre>
+<p>excute command:</p>
+<pre>
+:SimpleTemplateTab template.js
+</pre>
+<p>Will create a file in new tab.And it's content is:</p>
+<pre>
+/*
+ * @name   : Super Man
+ * @author : wondger
+ * @crate  : 2012-04-10
+*/
+(cursor will move here)
+</pre>
