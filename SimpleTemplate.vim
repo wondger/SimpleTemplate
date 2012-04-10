@@ -4,7 +4,7 @@
 " @date:2012-03-31
 " @url:http://wondger.github.com/simpletemplate
 " @todo:
-"   [.]replace flag in whole file
+"   [X]replace flag in whole file
 " @changelog:
 "
 
@@ -14,7 +14,7 @@
 "let g:SimpleTemplate = {
     "path:$VIM.'/vimfiles/template/',
     "default_name:'noname',
-    "cursor:'',
+    "cursor:'#cursor#',
     "flags:[
         "{
             "key:'#author#',
