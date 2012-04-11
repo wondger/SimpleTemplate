@@ -39,7 +39,12 @@
     "]
 "}
 
-let g:SimpleTemplatePath=$VIM.'/vimfiles/template/'
+if has('unix')
+    let g:SimpleTemplatePath=$HOME.'/.vim/'
+else
+    let g:SimpleTemplatePath=$VIM.'/vimfiles/template/'
+endif
+
 let g:SimpleTemplateName='noname'
 let g:SimpleTemplateCursorFlag='#cursor#'
 let g:SimpleTemplateFileType='vim'
