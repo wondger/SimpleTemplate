@@ -7,7 +7,7 @@
 <p>Create a new file in new tab</p>
 <pre>:SimpleTemplateTab template.php</pre>
 
-<h3>Config Attribute</h3>
+<h3>Config</h3>
 <p>You can define a global variable for configuration.The variable name must be 'g:SimpleTemplate'.</p>
 <pre>
 let g:SimplateTemplate = {
