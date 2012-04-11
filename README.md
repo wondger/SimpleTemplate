@@ -25,7 +25,7 @@ let g:SimplateTemplate = {
             \'value':'#date#'
         \}
     \]
-}
+\}
 </pre>
 <p>Default template path is $HOME/.vim/template/ in unix,and $VIM/vimfiles/template/ in others.</p>
 <p>There are two system values you can use:</p>
