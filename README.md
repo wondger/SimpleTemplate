@@ -1,5 +1,5 @@
 <h2>SimpleTemplate</h2>
-<p>A vim plugin for creating file from template.SimplateTemplate can set filetype by the postfix of template file.And if there is no postfix the filetype will be setted 'vim'.</p>
+<p>A vim plugin for creating file from template.SimplateTemplate can set filetype by the postfix of template file.And if there is no postfix the filetype will be setted as 'vim'.</p>
 
 <h3>Usage</h3>
 <p>Create a new file in current window</p>
