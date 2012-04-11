@@ -27,6 +27,7 @@ let g:SimplateTemplate = {
     \]
 }
 </pre>
+<p>Default template path is $HOME/.vim/template/ in unix,and $VIM/vimfiles/template/ in others.</p>
 <p>There are tow system value you can use:</p>
 <ul>
     <li>#date# - current date time</li>

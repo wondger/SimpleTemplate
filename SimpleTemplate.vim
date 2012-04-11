@@ -40,7 +40,7 @@
 "}
 
 if has('unix')
-    let g:SimpleTemplatePath=$HOME.'/.vim/'
+    let g:SimpleTemplatePath=$HOME.'/.vim/template/'
 else
     let g:SimpleTemplatePath=$VIM.'/vimfiles/template/'
 endif
