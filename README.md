@@ -51,7 +51,7 @@ let g:SimplateTemplate = {
     "template path
     \'path':'~/template/',
     \'default_name':'noname',
-    \'cursor':'#cursor',
+    \'cursor':'#cursor#',
     \'flags':[
         \{
             \'key':'__author__',
